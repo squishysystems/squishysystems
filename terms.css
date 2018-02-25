@@ -1,0 +1,81 @@
+
+body {
+	   	font-family: 'Space Mono', monospace;
+		line-height: 1.3em;
+		background-url: http://api.thumbr.it/whitenoise-361x370.png?background=#FFFAE4ff&noise=626262&density=15&opacity=15
+}
+
+img{
+	width: 100%;
+	border: 2em;
+	border-color: #000000;
+	color: #000000;
+}
+
+
+.container{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.one{
+	font-size: 1em;
+	display: flex;
+	flex-direction: column;
+	flex: 1 1 auto;
+	width: 200px;
+	padding: 1em;
+}
+
+.two{
+	font-size: 1em;
+	display: flex;
+	flex: 2 1 auto;
+	flex-direction: column;
+	width: 400px;
+	padding: 1em;
+}
+
+.smallitem{
+/*	font-size: .85em;
+	padding-top: 1em;*/
+	padding-bottom: 10em;
+}
+
+.fixed{
+	position: fixed;
+}
+
+h2{
+	font-size: .95em;
+	padding-bottom: 1em;
+	font-weight: normal;
+}
+
+h3{
+	font-size: .85em;
+	font-weight: normal;
+}
+
+
+h1{
+	font-size: 1em;
+	font-weight: normal;
+}
+
+h4{
+	font-size: .75em;
+	padding-bottom: 1em;
+	font-weight: normal;
+}
+
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
