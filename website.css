@@ -19,6 +19,12 @@ img{
 	flex-wrap: wrap;
 }
 
+.header{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
 .one{
 	font-size: 1em;
 	padding-top: .5em;
@@ -54,6 +60,11 @@ img{
 	padding-bottom: 10em;
 }
 
+.top{
+	font-size: .85em;
+	padding-top: 8em;
+}
+
 .smallmenu{
 	font-size: .85em;
 	padding-bottom: 5em;
@@ -63,7 +74,6 @@ img{
 .menu{
 	font-size: .85em;
 	color: blue;
-	padding-bottom: 8em;
 }
 
 
@@ -71,8 +81,8 @@ img{
 	position: fixed;
 	background-color: rgba(255, 255, 255, .5);
 	padding-right: 1em;
-/*	padding-bottom: 5em;
-*/}
+	padding-bottom: 5em;
+}
 
 h2{
 	font-size: 1.1em;
